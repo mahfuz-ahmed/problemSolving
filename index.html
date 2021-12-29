@@ -22,5 +22,16 @@
     <span id="idName"></span>
     <input type="password" name="" id="" />
     <p>mahfuz ahmed an spelling welcome</p>
+
+    <button onclick="handleClick()">Click-1</button>
+    <button id="button2">Click-2</button>
+
+    <script>
+      function handleClick() {
+        document.body.style.backgroundColor = "cyan";
+      }
+      const secondButton = document.getElementById("button2");
+      secondButton.onclick = handleClick;
+    </script>
   </body>
 </html>
